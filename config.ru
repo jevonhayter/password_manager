@@ -1,2 +1,2 @@
-require "./password_manager"
+require "./pwm"
 run Sinatra::Application
