@@ -11,6 +11,16 @@ before do
   session[:passwords] ||= []
 end
 
+helpers do
+  def color_code(index)
+    if index.even? 
+     'active' 
+    else 
+     'info'
+    end
+  end
+end
+
 # Home Page
 get '/' do
   erb :index
