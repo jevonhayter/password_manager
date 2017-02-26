@@ -26,10 +26,6 @@ helpers do
   end
 end
 
-def check_for_password(id)
-  
-end
-
 # Home Page
 get '/' do
   erb :index
